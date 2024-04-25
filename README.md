@@ -1,6 +1,6 @@
 ## my-SystemServer
 
-    Ini tuh RestAPI untuk project Gamecomm menggunakan PHP, Blade, dan a little bit of JS di tampung dengan laravel
+RestAPI GameComm menggunakan PHP, Blade, JS, di tampung dengan laravel tujuan project ini untuk membuat API yng dapat di kempang further kedepannya.
 
 ## Cara nge _Clone_ 
 Use `git clone git@github.com:AmmarAlGhifary/my-SystemServer.git`
