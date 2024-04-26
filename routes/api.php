@@ -35,3 +35,14 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
  * 
  */
 Route::post('/logout', App\Http\Controllers\Api\LogoutController::class)->name('logout');
+
+/**
+ * 
+ * route "/Admin
+ * @method "POST"
+ * 
+ */
+ Route::prefix('admin')->group(function () {
+    Route::post('login', [AdminAuthController::class, 'login']);
+    Route::post('logout', [AdminAuthController::class, 'logout'])->middleware('auth:admin');
+});
